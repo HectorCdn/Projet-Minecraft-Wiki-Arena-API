@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+	font-family: "Rubik", sans-serif;
+}
+
+body {
+    width: 100vw;
+}
+
+.display-none {
+	display: none;
+}
+
+nav {
+	padding: 16px 24px;
+	background: url("/assets/roche.jpeg");
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	height: 40px;
+	width: 40px;
+}
+
+.minecraft-logo {
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+	color: white;
+	font-family: Rubik;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.research {
+	width: 159;
+	height: 40;
+	gap: 12px;
+	border-radius: 999px;
+	padding: 11px;
+	background: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.research-input {
+	color: #dbdbdb;
+	font-family: Rubik;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 100%;
+    border: none;
+}
