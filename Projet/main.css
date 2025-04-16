@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 100vw;
+	width: 100vw;
 }
 
 .display-none {
@@ -24,6 +24,16 @@ nav {
 	width: 40px;
 }
 
+.logo-name {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 100%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .minecraft-logo {
 	display: flex;
 	flex-direction: row;
@@ -40,15 +50,23 @@ nav {
 	justify-content: center;
 }
 
+.button-menu {
+	border: none;
+	background: none;
+}
+
 .research {
-	width: 159;
-	height: 40;
 	gap: 12px;
+	width: 40%;
+	height: 40px;
 	border-radius: 999px;
 	padding: 11px;
 	background: #ffffff;
-    display: flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: row;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .research-input {
@@ -57,5 +75,133 @@ nav {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 100%;
+	border: none;
+	width: 100%;
+}
+
+.loupe {
+	height: 17.5px;
+	width: 17.5px;
+}
+
+.dirt-background {
+	padding: 60px 30px;
+	background: no-repeat url(/assets/background-dirt.png);
+}
+
+.roche {
+	background: url(/assets/roche.jpeg);
+}
+
+.bgc-white {
+	background-color: #e6eff4;
+	padding: 20px;
+}
+
+h1 {
+	font-family: Rubik;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	vertical-align: middle;
+
+	color: #3a3a3a;
+}
+
+.pink-part {
+	border-left: 5px solid #bc5c70;
+	background-color: #f5c2cd;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	color: #3a3a3a;
+	padding: 8px 12px;
+	align-items: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.tableau-pink {
+	width: 60px;
+	height: 60px;
+}
+
+.p-pink {
+	width: 60%;
+}
+
+.p-text {
+	margin-top: 20px;
+	color: #3a3a3a;
+}
+
+.h2-list {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	vertical-align: middle;
+	color: #3a3a3a;
+}
+
+hr {
+	background: #3a3a3a;
+	width: 337;
+	height: 1;
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.formulaire {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.research-bottom {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.space-around {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-choose {
+    margin-top: 20px;
+	font-family: Rubik;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+	vertical-align: middle;
+	color: #3a3a3a;
+    text-align: start;
+}
+
+.gap {
+    display: flex;
+    gap: 10px   ;
+}
+
+select {
     border: none;
+    padding: 5px;
+    border-radius: 4px;
+    width: 100%;
 }

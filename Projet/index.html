@@ -12,56 +12,106 @@
 		<header>
 			<nav>
 				<div class="minecraft-logo">
-                    <img class="logo" src="/assets/logo.svg" alt="logo">
-                    <h2 class="logo-name">Minecraft wiki</h2>
-                </div>
-				<div class="explore display-none"></div>
-				<div class="arena display-none"></div>
-				<div class="rule display-none"></div>
+					<img class="logo" src="/assets/logo.svg" alt="logo" />
+					<h2 class="logo-name">Minecraft wiki</h2>
+				</div>
+				<div class="explore display-none"><a href=""></a></div>
+				<div class="arena display-none"><a href=""></a></div>
+				<div class="rule display-none"><a href=""></a></div>
 				<div class="research">
-                    <img src="/assets/loupe.svg" alt="loupe">
-                    <input class="research-input type="text"  placeholder="Search...">
-                </div>
-				<div class="theme display-none"></div>
-                <div class="menu">
-                    <img src="/assets/menu-logo.svg" alt="">
-                </div>
+					<img class="loupe" src="/assets/loupe.svg" alt="loupe" />
+					<input class="research-input type="text" placeholder="Search...">
+				</div>
+				<div class="theme display-none"><button></button></div>
+				<div class="menu">
+					<button class="button-menu">
+						<img src="/assets/menu-logo.svg" alt="" />
+					</button>
+				</div>
 			</nav>
 		</header>
 		<main>
 			<div>
-				<h1>Explore Minecraft entities</h1>
-				<div class="pink-part">
-					<img src="" alt="" />
-					<p>
-						<span>This page use many images.</span> It is not recommended for
-						people with limited or slow internet connections to read through
-						this page.
-					</p>
-				</div>
-				<p>
-					An Entity is an AI-driven game entity resembling a living creature.
-					Besides its common meaning, the term "mob" is short for "mobile
-					entity".[1] All entities can be attacked and hurt (from falling,
-					attacked by a player or another entity, falling into the void, hit by
-					an arrow, etc), and have some form of voluntary movement. Different
-					types of entities often have unique AI and drop good or
-					bad loot depending on the entity that was killed.
-				</p>
-				<img src="" alt="" />
-				<h2>List of entities</h2>
-				<p>
-					Entities are classifie by their nature from the player's perspective.
-					You can search for one or multiples entities by their name using the
-					search bar or simply by filling appropriate filters (type, health,
-					armor, damage, etc..)
-				</p>
+				<img src="/assets/background-cloud.png" alt="" />
 			</div>
-			<div class="research"></div>
-			<div class="class">
-                <button class="search"></button>
-            </div>
-			<hr />
+			<div class="roche">
+				<div class="background-white">
+					<div class="dirt-background">
+						<div class="bgc-white">
+							<h1>Explore Minecraft entities</h1>
+							<div class="pink-part">
+								<img class="tableau-pink" src="/assets/tableau.jpeg" alt="" />
+								<p class="p-pink">
+									<span class="span-pink">This page use many images.</span> It
+									is not recommended for people with limited or slow internet
+									connections to read through this page.
+								</p>
+							</div>
+							<p class="p-text">
+								An <span class="bold">Entity</span> is an AI-driven
+								game entity resembling a living creature. Besides its common
+								meaning, the term "mob" is short for "mobile entity".[1] All
+								entities can be attacked and hurt (from falling, attacked by
+								a player or another entity, falling into the void, hit by
+								an arrow, etc), and have some form of voluntary movement.
+								<br />
+								<br />
+								Different types of entities often have unique AI and drop good
+								or bad loot depending on the entity that was killed.
+							</p>
+							<img
+								class="image-mob"
+								src="/assets/famille-mob.jpeg"
+								alt="5 mineacraft mobs"
+							/>
+							<h2 class="h2-list">List of entities</h2>
+							<hr />
+							<p>
+								Entities are classifie by their nature from the player's
+								perspective. You can search for one or multiples entities by
+								their name using the search bar or simply by filling appropriate
+								filters (type, health, armor, damage, etc..)
+							</p>
+							<div class="formulaire">
+								<div class="research research-bottom">
+									<img class="loupe" src="/assets/loupe.svg" alt="loupe" />
+									<input class="research-input type="text"
+									placeholder="Search...">
+								</div>
+								<div class="flex-row space-around input-choose">
+									<div class="flex-column gap">
+										<p>Classification</p>
+										<select name="Classification" id="pet-select">
+											<option value="">Choose</option>
+											<option value="arthropod">Arthropod</option>
+											<option value="undead">Undead</option>
+											<option value="animal">Animal</option>
+											<option value="aquatic">Aquatic</option>
+											<option value="monster">Monster</option>
+										</select>
+									</div>
+									<div class="flex-column gap">
+										<p>Type</p>
+										<select name="Classification" id="pet-select">
+											<option value="">Choose</option>
+                                            <option value="">Choose</option>
+											<option value="arthropod">Arthropod</option>
+											<option value="undead">Undead</option>
+											<option value="animal">Animal</option>
+											<option value="aquatic">Aquatic</option>
+											<option value="monster">Monster</option>
+										</select>
+									</div>
+								</div>
+								<div class="">
+									<button class="search"></button>
+								</div>
+								<hr />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
 	</body>
 </html>
