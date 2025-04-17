@@ -159,6 +159,8 @@ hr {
 .formulaire {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 .research-bottom {
@@ -182,6 +184,49 @@ hr {
 }
 
 .input-choose {
+	margin-top: 20px;
+	font-family: Rubik;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+	vertical-align: middle;
+	color: #3a3a3a;
+	text-align: start;
+}
+
+.width {
+    width: 50%;
+}
+
+.gap {
+	display: flex;
+	gap: 10px;
+}
+
+select {
+	border: none;
+	padding: 5px;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.input-number {
+	color: white;
+	border-radius: 4px;
+	border: none;
+	width: 90%;
+	width: 141;
+	height: 30;
+	gap: 24px;
+	border-radius: 4px;
+	padding: 8px;
+    
+}
+
+.input-number-class {
+	width: 50%;
     margin-top: 20px;
 	font-family: Rubik;
 	font-weight: 700;
@@ -191,17 +236,5 @@ hr {
 	text-align: center;
 	vertical-align: middle;
 	color: #3a3a3a;
-    text-align: start;
-}
-
-.gap {
-    display: flex;
-    gap: 10px   ;
-}
-
-select {
-    border: none;
-    padding: 5px;
-    border-radius: 4px;
-    width: 100%;
+	text-align: start;
 }
